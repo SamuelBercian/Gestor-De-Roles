@@ -1,16 +1,16 @@
 package com.practica.springboot.controller;
 
-// import org.springframework.beans.factory.annotation.Autowired;
+// s
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
-// import com.practica.springboot.repository.UsuarioRepository;
+// import com.practica.springboot.repository.UserRepository;
 
 @Controller
-public class UsuarioRegistroController {
+public class SignUpUserController {
     
     // @Autowired
-    // private UsuarioRepository usuarioRepository;
+    // private UserRepository userRepository;
 
     @GetMapping("/SignUp")
     public String ShowSignUp(){

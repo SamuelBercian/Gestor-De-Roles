@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.roboto-condensed{
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 
+PALETA DE COLORES
+
+1-0d1321
+2-1d2d44
+3-3e5c76
+4-748cab
+5-f0ebd8
+
+ */
+
+body{
+    margin: 0;
+    padding: 0;
+
+    background: #0D1321;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignUpForm{
+    background: #1d2d44;
+
+    width: 400px;
+    height: 300px;
+
+    border: 0 solid;
+    border-radius: 5%;
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 10px;
+}
+
+.label_1{
+    color: #f0edb8;
+    background: #0D1321;
+
+    font: 20px 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+
+    margin: 0;
+    padding: 5px;
+    border: 2px solid #f0edb8;
+
+    border-radius: 5px 0 0 5px;
+}
+
+/*
+Diseño responsive para el formulario de registro
+*/
+
+/* Moviles */
+
+/* Para Iphone */
+@media (max-width: 450px){
+    .container{
+        width: 90%;
+        
+        height: 100dvh;
+        max-height: 896px;
+    }
+}
+
+/* Para Ipads pequeñas */
+@media (min-width: 500px){
+    .container{
+        width: 90%;
+        
+        height: 100dvh;
+    }
+}
+
+/* Para Ipads grandes */
+@media (min-with: 820px){
+    .container{
+        width: 90%;
+        
+        height: 100dvh;
+    }
+}
+
+/* Para pantallas medianas */
+@media (min-width: 1024px){
+    .container{
+        width: 90%;
+        
+        height: 100dvh;
+    }
+}
+
+/* Para pantallas grandes */
+@media (min-width: 1280px){
+    .container{
+        width: 90%;
+        
+        height: 100dvh;
+    }
+}
+
+/* Para pantallas muy grandes */
+@media (min-width: 1920px){
+    .container{
+        width: 90%;
+        
+        height: 100dvh;
+    }
+}
+
+@media (max-width: 1920px){
+    .container{
+        width: 90%;
+        
+        height: 100dvh;
+    }
+}
+
+
+
+
+
+
+
+
+

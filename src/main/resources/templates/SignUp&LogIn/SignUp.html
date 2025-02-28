@@ -6,11 +6,48 @@
     <title>Sign Up</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Style.css">
 </head>
 <body>
+    <main class="container main">
 
-    <main>
-        <h1>HOLA MUNDO</h1>
+        <form action="" class="SignUpForm" method="post">
+            <section>
+                <label for="" class="label_1">Nombre</label>
+                <input type="text" class="input_1" name="nombre" id="name" placeholder="Nombre">
+            </section>
+
+            <section>
+                <label for="">Apellido</label>
+                <input type="text" name="apellido" id="lastname" placeholder="Apellido">
+            </section>    
+
+            <section>
+                <label for="">Edad</label>
+                <input type="number" name="edad" id="age">
+            </section>
+
+            <section>
+                <label for="">Correo</label>
+                <input type="email" name="email" id="email" placeholder="Correo">
+            </section>
+
+            <section>
+                <label for="">Contraseña</label>
+                <input type="password" name="password" id="password" placeholder="Contraseña">
+            </section>
+
+            <section>
+                <label for="">Confirmar contraseña</label>
+                <input type="password" name="password" id="password" placeholder="Contraseña">
+            </section>
+
+            <section>
+                <input type="submit" name="enviar" id="submit" value="Enviar">
+            </section>
+
+        </form>
+
     </main>
     
 
