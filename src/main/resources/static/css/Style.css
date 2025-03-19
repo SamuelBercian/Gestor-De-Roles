@@ -50,7 +50,7 @@ body{
     color: #fff;
 }
 
-.SignUpForm{
+.Form{
     width: 90%;
     height: auto;
 
@@ -94,7 +94,7 @@ body{
 
 /* Button */
 .btn-personalizado{
-    width: 30%;
+    width: 40%;
     margin: 8px 0;
 
     background: #0D1321;
@@ -191,12 +191,3 @@ Diseño responsive para el formulario de registro
         height: 100dvh;
     }
 } */
-
-
-
-
-
-
-
-
-
