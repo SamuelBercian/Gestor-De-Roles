@@ -10,6 +10,5 @@ public class LoginUserController {
     @GetMapping("/Login")
     public String ShowLogin(){
         return "SignUp&LogIn/Login";
-    }
-    
+    }   
 }
