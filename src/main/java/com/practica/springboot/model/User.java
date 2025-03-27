@@ -1,7 +1,11 @@
 package com.practica.springboot.model;
 
+import org.hibernate.annotations.GeneratorType;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
@@ -19,7 +23,8 @@ public class User {
 
     //Attributes
     @Id
-    private Integer id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id_usuario;
 
     @Column(name = "name")
     private String name;
@@ -35,4 +40,7 @@ public class User {
 
     @Column(name = "password")
     private String password;
+
+    public User(){
+    }
 }
